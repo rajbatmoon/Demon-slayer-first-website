@@ -1,0 +1,25 @@
+.ontop{
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff4b4b;
+    color: aliceblue;
+    border-radius: 25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+#ontop{
+    height: 60px;
+    width=60px;
+    margin-top: 10%;
+
+}
