@@ -50,11 +50,16 @@
     display: block;
     padding: 15px;
     font-size: 18px;
-    color: white;
+    color:  #ff4b4b;
     text-decoration: none;
     border-bottom: 1px solid #333;
 }
 
 .sidebar.active {
     left: 0;
+}
+
+a:hover{
+    text-shadow: 0 0 15px #ff4b4b;
+    color: white;
 }
