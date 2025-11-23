@@ -106,39 +106,44 @@
             font-size: 0.9rem;
             color: #aaa;
         }
-        a{
-          color: #ff4b4b;
-          text-decoration: none;
-         
-        }
 
+        a {
+            color: #ff4b4b;
+            text-decoration: none;
+
+        }
     </style>
     <link rel="stylesheet" href="style.css">
     <script src="./script.js"></script>
 </head>
 
 <body>
-   
+
+    <!-- Hamburger Menu -->
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <a href="#main_character">Main Characters</a>
+        <a href="#ds_corps">Demon Slayer Corps</a>
+        <a href="#hashira">Hashira</a>
+        <a href="#butterfly_mansion">Butterfly Mansion</a>
+        <a href="#swordsmen_village">Swordsmen Village</a>
+        <a href="#others_members">Other Members</a>
+        <a href="#demons">Demons</a>
+        <a href="#muzan_kibutsuji">Muzan Kibutsuji</a>
+        <a href="#twelve_kizuki">Twelve Kizuki</a>
+        <a href="#upper_ranks">Upper Ranks</a>
+        <a href="#lower_ranks">Lower Ranks</a>
+    </nav>
+
     <header>
         <h1 id="top">Demon Slayer: Kimetsu no Yaiba</h1>
     </header>
-        
-    <main>
-        <nav>
-        <a href="#main_character">Main Characters</a><br>
-        <a href="#ds_corps">Demon Slayer Corps</a><br>
-        <a href="#hashira">Hashira</a><br>
-        <a href="#butterfly_mansion">Butterfly Mansion</a><br>
-        <a href="#swordsmen_village">Swordsmen Village</a><br>
-        <a href="#others_members">Other Members</a><br>
-        <a href="#demons">Demons</a><br>
-        <a href="#muzan_kibutsuji">Muzan Kibutsuji</a><br>
-        <a href="#twelve_kizuki">Twelve Kizuki</a><br>
-        <a href="#upper_ranks">Upper Ranks</a><br>
-        <a href="#lower_ranks">Lower Ranks</a><br>
 
+    
 
-        </nav>
+    
         <section>
             <h2>About the Series</h2>
             <p>
@@ -824,165 +829,209 @@
                             Yoriichi's Sun Breathing. He dies while fighting Muichiro, Genya, Sanemi, and Gyomei, with
                             Muichiro and Genya dying from their wounds soon after.
                         </p>
-                    </div
-                </div>
+                    </div </div>
 
-                <!-- Doma -->
-                <div class="card">
-                    <img src="douma5.jpg" alt="Douma">
-                    <div class="card-content">
-                        <h3>Doma</h3>
-                        <p>
-                            A nihilistic demon who holds the position of Upper Rank Two. As a human, Doma was born with
-                            unusual rainbow eyes and pale-colored hair, which caused his parents to see him as perfect
-                            and blessed, and start a religious cult centered around him. After they died, he assumed
-                            control of the cult, and, after Muzan transformed him into a demon, began eating his
-                            followers under the belief that they would live forever inside him. One member of his cult
-                            was Inosuke's mother Kotoha, whom he devoured when she attempted to flee upon learning his
-                            true nature. He was also responsible for killing Shinobu's older sister Kanae. In a
-                            desperate measure to defeat him, Shinobu administers a massive dose of wisteria-based poison
-                            in her body and allows herself to be consumed, weakening him and allowing Kanao and Inosuke
-                            to kill him.
-                        </p>
+                    <!-- Doma -->
+                    <div class="card">
+                        <img src="douma5.jpg" alt="Douma">
+                        <div class="card-content">
+                            <h3>Doma</h3>
+                            <p>
+                                A nihilistic demon who holds the position of Upper Rank Two. As a human, Doma was born
+                                with
+                                unusual rainbow eyes and pale-colored hair, which caused his parents to see him as
+                                perfect
+                                and blessed, and start a religious cult centered around him. After they died, he assumed
+                                control of the cult, and, after Muzan transformed him into a demon, began eating his
+                                followers under the belief that they would live forever inside him. One member of his
+                                cult
+                                was Inosuke's mother Kotoha, whom he devoured when she attempted to flee upon learning
+                                his
+                                true nature. He was also responsible for killing Shinobu's older sister Kanae. In a
+                                desperate measure to defeat him, Shinobu administers a massive dose of wisteria-based
+                                poison
+                                in her body and allows herself to be consumed, weakening him and allowing Kanao and
+                                Inosuke
+                                to kill him.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Akaza -->
+                    <div class="card">
+                        <img src="akaza2.jpg" alt="Akaza">
+                        <div class="card-content">
+                            <h3>Akaza</h3>
+                            <p>
+                                A contentious demon who holds the position of Upper Rank Three. He despises those he
+                                considers weak and offers those he considers strong enough to earn his respect the
+                                opportunity to become demons. As a human, he was a teenager named Hakuji (狛治) who, as a
+                                child, stole to care for his ailing father before he committed suicide to free him from
+                                the
+                                burden of caring for him. Hakuji was adopted by a martial artist, Keizo, and trained
+                                under
+                                him while falling in love with his daughter Koyuki. Hakuji's adoptive family was killed
+                                when
+                                a rival dojo poisoned them, leading him to slaughter them single-handedly, after which
+                                Muzan
+                                turned him into a demon. Akaza battles and kills Kyojuro, and later battles Tanjiro and
+                                Giyu
+                                in the Infinity Castle, during which he regains his human memories and commits suicide
+                                by
+                                destroying his body and ceasing his regeneration, dying of his wounds.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Hantengu  -->
+                    <div class="card">
+                        <img src="hantengu5.jpg" alt="Hantengu ">
+                        <div class="card-content">
+                            <h3>Hantengu </h3>
+                            <p>
+                                A cowardly demon who holds the position of Upper Rank Four. Hantengu shows his true
+                                strength
+                                upon dividing himself into multiple clones which denote different emotions, each one
+                                possessing a unique appearance, personality, and ability: Sekido (anger), Karaku
+                                (pleasure),
+                                Aizetsu (sadness), Urogi (joy), Zohakuten (hatred), and Urami (resentment). As a human,
+                                he
+                                was a prolific criminal who boasted of his innocence despite his conviction before Muzan
+                                turned him into a demon. He attacks the Swordsmith Village with Gyokko, where Tanjiro,
+                                Nezuko, Genya, and Mitsuri confront him. Tanjiro kills him, but he lives long enough to
+                                inform Muzan of Nezuko's newfound immunity to sunlight.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Nakime  -->
+                    <div class="card">
+                        <img src="nakime2.jpg" alt="Nakime">
+                        <div class="card-content">
+                            <h3>Nakime</h3>
+                            <p>
+                                A biwa-playing demon who owns the Infinity Castle (異空間無限城, Ikūkan Mugen-jō), an
+                                alternate
+                                dimensional space that Muzan made his base of operations. As a human, she was a
+                                struggling
+                                musician who developed a habit of murdering prior to her performances, as she associated
+                                killing with applause. She ended up meeting Muzan when she tried to kill him, only to
+                                earn
+                                his respect for tracking him and granting her new life as a demon. Nakime becomes Upper
+                                Rank
+                                Four after Hantengu's death and later confronts Mitsuri and Obanai until Yushiro
+                                restrains
+                                her, prompting Muzan to kill her to stop him from controlling the castle.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Gyokko  -->
+                    <div class="card">
+                        <img src="gyokko2.jpg" alt="Gyokko ">
+                        <div class="card-content">
+                            <h3>Gyokko </h3>
+                            <p>
+                                An arrogant demon holds the position of Upper Rank Five. Unlike the others, Gyokko has a
+                                highly distorted djinn-like anatomy with his eyes being on his forehead and mouth along
+                                with
+                                two mouths being where his eyes would be. As a human, he was an ostracized villager who
+                                developed an obsession with corpses after his parents drowned at sea and their bodies
+                                washed
+                                up on shore. He kidnapped and killed a child before being stabbed and left for dead,
+                                after
+                                which Muzan transformed him into a demon. He claims himself to be an artist and takes
+                                pride
+                                in his creations, including twisting his victims' bodies into grotesque, living
+                                sculptures.
+                                He attacks the Swordsmith Village alongside Hantengu but is killed by Muichiro.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Daki -->
+                    <div class="card">
+                        <img src="daki2.jpg" alt="Daki">
+                        <div class="card-content">
+                            <h3>Daki</h3>
+                            <p>
+                                A petulant demon who shares the position of Upper Rank Six with her older brother
+                                Gyutaro.
+                                Daki takes advantage of her work as an oiran in the red-light district to attract
+                                victims.
+                                As a human, she was named Ume (梅; lit. syphilis), after the disease that killed her
+                                mother,
+                                and was raised by Gyutaro in the district slums they were born in. Her beauty led to
+                                success
+                                in the district at a young age, until she was burned alive at the age of thirteen by a
+                                customer she attacked. She was on the verge of dying alongside Gyutaro when Doma — who
+                                was
+                                Upper Rank Six demon then — transformed her into a demon and introduced them to the
+                                Twelve
+                                Kizuki. She wields an obi belt made of her flesh, which she also uses to absorb her
+                                victims
+                                and place them in a secret location before devouring them. After Zenitsu and Inosuke
+                                kill
+                                her, she returns to her former human appearance and meets Gyutaro in the afterlife,
+                                refusing
+                                to leave his side despite him trying to push her away so she would not have to go to
+                                Hell,
+                                reminding him of their promise to survive anything together.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Gyutaro  -->
+                    <div class="card">
+                        <img src="gyutaro2.jpg" alt="Gyutaro">
+                        <div class="card-content">
+                            <h3>Gyutaro</h3>
+                            <p>
+                                A misanthropic demon who shares the position of Upper Rank Six with his younger sister
+                                Daki.
+                                As a human, he was born in the red-light district slums alongside Daki and was
+                                ostracized
+                                for his unsightly appearance. Ume gave him joy and allowed him to embrace his vile
+                                disposition while making a living as a debt collector, only to be mortally wounded after
+                                killing the customer who burned her alive; Doma later turned him into a demon. He
+                                usually
+                                hides within Daki's body and emerges whenever her life is threatened. He fights using
+                                his
+                                poisonous blood and two flesh sickles as his Blood Demon Art. As dual holders of Upper
+                                Rank
+                                Six, Gyutaro must be decapitated together with Daki to be truly killed. After Tengen and
+                                Tanjiro kill him, he expresses regret over being a negative influence to Ume when she
+                                was
+                                alive and decides to go to Hell alone to atone for their sins, but he relents after Ume
+                                refuses to leave his side.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Kaigaku -->
+                    <div class="card">
+                        <img src="kaigaku2.jpg" alt="Kaigaku">
+                        <div class="card-content">
+                            <h3>Kaigaku</h3>
+                            <p>
+                                A young demon who becomes the new Upper Rank Six following Daki and Gyutaro's deaths. As
+                                a
+                                human, he was one of the orphans under Gyomei's care; he was chased out by the other
+                                children for stealing the temple's money and encountered a demon, which he let into the
+                                temple in exchange for having his life spared, leading to their deaths and Gyomei's
+                                wrongful
+                                imprisonment. He then became a member of the Demon Slayer Corps, learning the Thunder
+                                Breathing style from Jigoro along with Zenitsu, before betraying them and allowing
+                                Kokushibo
+                                to transform him into a demon, leading Jigoro to commit seppuku in atonement. Unlike
+                                Zenitsu, who only mastered the first of the six forms of Thunder Breathing, Kaigaku only
+                                mastered the other five. He battles Zenitsu but is killed when Zenitsu strikes him with
+                                a
+                                self-taught, seventh form.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Akaza -->
-                <div class="card">
-                    <img src="akaza2.jpg" alt="Akaza">
-                    <div class="card-content">
-                        <h3>Akaza</h3>
-                        <p>
-                            A contentious demon who holds the position of Upper Rank Three. He despises those he
-                            considers weak and offers those he considers strong enough to earn his respect the
-                            opportunity to become demons. As a human, he was a teenager named Hakuji (狛治) who, as a
-                            child, stole to care for his ailing father before he committed suicide to free him from the
-                            burden of caring for him. Hakuji was adopted by a martial artist, Keizo, and trained under
-                            him while falling in love with his daughter Koyuki. Hakuji's adoptive family was killed when
-                            a rival dojo poisoned them, leading him to slaughter them single-handedly, after which Muzan
-                            turned him into a demon. Akaza battles and kills Kyojuro, and later battles Tanjiro and Giyu
-                            in the Infinity Castle, during which he regains his human memories and commits suicide by
-                            destroying his body and ceasing his regeneration, dying of his wounds.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Hantengu  -->
-                <div class="card">
-                    <img src="hantengu5.jpg" alt="Hantengu ">
-                    <div class="card-content">
-                        <h3>Hantengu </h3>
-                        <p>
-                            A cowardly demon who holds the position of Upper Rank Four. Hantengu shows his true strength
-                            upon dividing himself into multiple clones which denote different emotions, each one
-                            possessing a unique appearance, personality, and ability: Sekido (anger), Karaku (pleasure),
-                            Aizetsu (sadness), Urogi (joy), Zohakuten (hatred), and Urami (resentment). As a human, he
-                            was a prolific criminal who boasted of his innocence despite his conviction before Muzan
-                            turned him into a demon. He attacks the Swordsmith Village with Gyokko, where Tanjiro,
-                            Nezuko, Genya, and Mitsuri confront him. Tanjiro kills him, but he lives long enough to
-                            inform Muzan of Nezuko's newfound immunity to sunlight.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Nakime  -->
-                <div class="card">
-                    <img src="nakime2.jpg" alt="Nakime">
-                    <div class="card-content">
-                        <h3>Nakime</h3>
-                        <p>
-                            A biwa-playing demon who owns the Infinity Castle (異空間無限城, Ikūkan Mugen-jō), an alternate
-                            dimensional space that Muzan made his base of operations. As a human, she was a struggling
-                            musician who developed a habit of murdering prior to her performances, as she associated
-                            killing with applause. She ended up meeting Muzan when she tried to kill him, only to earn
-                            his respect for tracking him and granting her new life as a demon. Nakime becomes Upper Rank
-                            Four after Hantengu's death and later confronts Mitsuri and Obanai until Yushiro restrains
-                            her, prompting Muzan to kill her to stop him from controlling the castle.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Gyokko  -->
-                <div class="card">
-                    <img src="gyokko2.jpg" alt="Gyokko ">
-                    <div class="card-content">
-                        <h3>Gyokko </h3>
-                        <p>
-                            An arrogant demon holds the position of Upper Rank Five. Unlike the others, Gyokko has a
-                            highly distorted djinn-like anatomy with his eyes being on his forehead and mouth along with
-                            two mouths being where his eyes would be. As a human, he was an ostracized villager who
-                            developed an obsession with corpses after his parents drowned at sea and their bodies washed
-                            up on shore. He kidnapped and killed a child before being stabbed and left for dead, after
-                            which Muzan transformed him into a demon. He claims himself to be an artist and takes pride
-                            in his creations, including twisting his victims' bodies into grotesque, living sculptures.
-                            He attacks the Swordsmith Village alongside Hantengu but is killed by Muichiro.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Daki -->
-                <div class="card">
-                    <img src="daki2.jpg" alt="Daki">
-                    <div class="card-content">
-                        <h3>Daki</h3>
-                        <p>
-                            A petulant demon who shares the position of Upper Rank Six with her older brother Gyutaro.
-                            Daki takes advantage of her work as an oiran in the red-light district to attract victims.
-                            As a human, she was named Ume (梅; lit. syphilis), after the disease that killed her mother,
-                            and was raised by Gyutaro in the district slums they were born in. Her beauty led to success
-                            in the district at a young age, until she was burned alive at the age of thirteen by a
-                            customer she attacked. She was on the verge of dying alongside Gyutaro when Doma — who was
-                            Upper Rank Six demon then — transformed her into a demon and introduced them to the Twelve
-                            Kizuki. She wields an obi belt made of her flesh, which she also uses to absorb her victims
-                            and place them in a secret location before devouring them. After Zenitsu and Inosuke kill
-                            her, she returns to her former human appearance and meets Gyutaro in the afterlife, refusing
-                            to leave his side despite him trying to push her away so she would not have to go to Hell,
-                            reminding him of their promise to survive anything together.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Gyutaro  -->
-                <div class="card">
-                    <img src="gyutaro2.jpg" alt="Gyutaro">
-                    <div class="card-content">
-                        <h3>Gyutaro</h3>
-                        <p>
-                            A misanthropic demon who shares the position of Upper Rank Six with his younger sister Daki.
-                            As a human, he was born in the red-light district slums alongside Daki and was ostracized
-                            for his unsightly appearance. Ume gave him joy and allowed him to embrace his vile
-                            disposition while making a living as a debt collector, only to be mortally wounded after
-                            killing the customer who burned her alive; Doma later turned him into a demon. He usually
-                            hides within Daki's body and emerges whenever her life is threatened. He fights using his
-                            poisonous blood and two flesh sickles as his Blood Demon Art. As dual holders of Upper Rank
-                            Six, Gyutaro must be decapitated together with Daki to be truly killed. After Tengen and
-                            Tanjiro kill him, he expresses regret over being a negative influence to Ume when she was
-                            alive and decides to go to Hell alone to atone for their sins, but he relents after Ume
-                            refuses to leave his side.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Kaigaku -->
-                <div class="card">
-                    <img src="kaigaku2.jpg" alt="Kaigaku">
-                    <div class="card-content">
-                        <h3>Kaigaku</h3>
-                        <p>
-                            A young demon who becomes the new Upper Rank Six following Daki and Gyutaro's deaths. As a
-                            human, he was one of the orphans under Gyomei's care; he was chased out by the other
-                            children for stealing the temple's money and encountered a demon, which he let into the
-                            temple in exchange for having his life spared, leading to their deaths and Gyomei's wrongful
-                            imprisonment. He then became a member of the Demon Slayer Corps, learning the Thunder
-                            Breathing style from Jigoro along with Zenitsu, before betraying them and allowing Kokushibo
-                            to transform him into a demon, leading Jigoro to commit seppuku in atonement. Unlike
-                            Zenitsu, who only mastered the first of the six forms of Thunder Breathing, Kaigaku only
-                            mastered the other five. He battles Zenitsu but is killed when Zenitsu strikes him with a
-                            self-taught, seventh form.
-                        </p>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <section>
@@ -996,114 +1045,114 @@
                 </p>
             </div>
             </div>
-            </section>
+        </section>
 
-             <section>
-                <div class="character-grid">
-            <!-- Enmu -->
-            <div class="card content">
-                <img src="enmu-hand.jpg" alt="Enmu">
-                <div class="card-content">
-                    <h3>Enmu</h3>
-                    <p>
-                        The Upper Ranks (上弦, Jōgen) are the high-ranking members of the Twelve Kizuki, with
-                        some having mutated their bodies to the point that, unlike other demons. They cannot be
-                        killed via decapitation. Their ranks were unaltered for over a century and no Demon Slayer
-                        had managed to kill any of them prior to Tanjiro and his friends joining the
-                        organization.
-                    </p>
+        <section>
+            <div class="character-grid">
+                <!-- Enmu -->
+                <div class="card content">
+                    <img src="enmu-hand.jpg" alt="Enmu">
+                    <div class="card-content">
+                        <h3>Enmu</h3>
+                        <p>
+                            The Upper Ranks (上弦, Jōgen) are the high-ranking members of the Twelve Kizuki, with
+                            some having mutated their bodies to the point that, unlike other demons. They cannot be
+                            killed via decapitation. Their ranks were unaltered for over a century and no Demon Slayer
+                            had managed to kill any of them prior to Tanjiro and his friends joining the
+                            organization.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Rui -->
-            <div class="card">
-                <img src="rui2.jpg" alt="Rui">
-                <div class="card-content">
-                    <h3>Rui</h3>
-                    <p>
-                        A child-like demon who holds the position of Lower Rank Five. As a human, he was a sickly
-                        boy who was transformed by Muzan. He killed his parents in self-defense when they attempted
-                        to kill him out of atonement; the ordeal caused Rui to forget his human memories. Being a
-                        favoured member of the Twelve Kizuki, he gains Muzan's permission to transform other humans
-                        and demons with his blood into a replacement family, who he abuses due to his warped view of
-                        familial bonds. This causes him to be envious of the Kamado siblings' bond, as he loses his
-                        calm demeanor and attacks erratically until Giyu kills him. In his final moments, he
-                        remembers his parents and reunites with them in Hell.
-                    </p>
+                <!-- Rui -->
+                <div class="card">
+                    <img src="rui2.jpg" alt="Rui">
+                    <div class="card-content">
+                        <h3>Rui</h3>
+                        <p>
+                            A child-like demon who holds the position of Lower Rank Five. As a human, he was a sickly
+                            boy who was transformed by Muzan. He killed his parents in self-defense when they attempted
+                            to kill him out of atonement; the ordeal caused Rui to forget his human memories. Being a
+                            favoured member of the Twelve Kizuki, he gains Muzan's permission to transform other humans
+                            and demons with his blood into a replacement family, who he abuses due to his warped view of
+                            familial bonds. This causes him to be envious of the Kamado siblings' bond, as he loses his
+                            calm demeanor and attacks erratically until Giyu kills him. In his final moments, he
+                            remembers his parents and reunites with them in Hell.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Kyogai -->
-            <div class="card">
-                <img src="kyugai5.jpg" alt="Kyogai">
-                <div class="card-content">
-                    <h3>Kyogai</h3>
-                    <p>
-                        A demon and former Lower Rank Six of the Twelve Kizuki. He is known as the "Drum Demon" (鼓鬼,
-                        Tsuzumi Oni). After Muzan strips him of his rank due to slowly losing the ability to eat
-                        humans and reaching his limit, he obsessively tries to earn his spot back in the Twelve
-                        Kizuki, attacking and eating humans who pass by the Tsuzumi Mansion. He fights using the
-                        tsuzumi drums embedded into his body; striking them can change the house's rooms around as
-                        well as his position in it, and also allows him to unleash powerful air slashes. Following
-                        an arduous battle, Tanjiro kills him.
-                    </p>
+                <!-- Kyogai -->
+                <div class="card">
+                    <img src="kyugai5.jpg" alt="Kyogai">
+                    <div class="card-content">
+                        <h3>Kyogai</h3>
+                        <p>
+                            A demon and former Lower Rank Six of the Twelve Kizuki. He is known as the "Drum Demon" (鼓鬼,
+                            Tsuzumi Oni). After Muzan strips him of his rank due to slowly losing the ability to eat
+                            humans and reaching his limit, he obsessively tries to earn his spot back in the Twelve
+                            Kizuki, attacking and eating humans who pass by the Tsuzumi Mansion. He fights using the
+                            tsuzumi drums embedded into his body; striking them can change the house's rooms around as
+                            well as his position in it, and also allows him to unleash powerful air slashes. Following
+                            an arduous battle, Tanjiro kills him.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Kamanue -->
-            <div class="card">
-                <img src="kamunue5.jpg" alt="Kamanue">
-                <div class="card-content">
-                    <h3>Kamanue</h3>
-                    <p>
-                        A demon who holds the position of Lower Rank Six. He is the first member of the Lower Ranks
-                        that Muzan kills when he decides to purge the Lower Ranks after he questions his
-                        expectations, which Muzan sees as defiance.
-                    </p>
+                <!-- Kamanue -->
+                <div class="card">
+                    <img src="kamunue5.jpg" alt="Kamanue">
+                    <div class="card-content">
+                        <h3>Kamanue</h3>
+                        <p>
+                            A demon who holds the position of Lower Rank Six. He is the first member of the Lower Ranks
+                            that Muzan kills when he decides to purge the Lower Ranks after he questions his
+                            expectations, which Muzan sees as defiance.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Mukago -->
-            <div class="card">
-                <img src="mukago2.jpg" alt="Mukago">
-                <div class="card-content">
-                    <h3>Mukago</h3>
-                    <p>
-                        A demon who holds the position of Lower Rank Four. Muzan kills her after deducing that she
-                        was more afraid of the Demon Slayers than him and interpreted her attempt at saving face as
-                        contradicting him.
-                    </p>
+                <!-- Mukago -->
+                <div class="card">
+                    <img src="mukago2.jpg" alt="Mukago">
+                    <div class="card-content">
+                        <h3>Mukago</h3>
+                        <p>
+                            A demon who holds the position of Lower Rank Four. Muzan kills her after deducing that she
+                            was more afraid of the Demon Slayers than him and interpreted her attempt at saving face as
+                            contradicting him.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Wakuraba -->
-            <div class="card">
-                <img src="wakuraba2.jpg" alt="Wakuraba">
-                <div class="card-content">
-                    <h3>Wakuraba</h3>
-                    <p>
-                        A demon who holds the position of Lower Rank Three. Muzan kills him when he tries to escape
-                        the Infinity Castle.
-                    </p>
+                <!-- Wakuraba -->
+                <div class="card">
+                    <img src="wakuraba2.jpg" alt="Wakuraba">
+                    <div class="card-content">
+                        <h3>Wakuraba</h3>
+                        <p>
+                            A demon who holds the position of Lower Rank Three. Muzan kills him when he tries to escape
+                            the Infinity Castle.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Rokuro -->
-            <div class="card">
-                <img src="roruko2.jpg" alt="Rokuro">
-                <div class="card-content">
-                    <h3>Rokuro</h3>
-                    <p>
-                        A demon who holds the position of Lower Rank Two. He is killed when he asks Muzan for his
-                        blood to gain strength and fight for him, which Muzan saw as undermining his authority.
-                    </p>
+                <!-- Rokuro -->
+                <div class="card">
+                    <img src="roruko2.jpg" alt="Rokuro">
+                    <div class="card-content">
+                        <h3>Rokuro</h3>
+                        <p>
+                            A demon who holds the position of Lower Rank Two. He is killed when he asks Muzan for his
+                            blood to gain strength and fight for him, which Muzan saw as undermining his authority.
+                        </p>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="ontop">
                 <a href="#top"><img src="./arrow-removebg-preview.png" id="ontop" alt="arrow"></a>
             </div>
-            
+
         </section>
     </main>
 
